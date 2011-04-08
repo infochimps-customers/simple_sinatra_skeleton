@@ -1,5 +1,6 @@
 // Place your application-specific JavaScript functions and classes here
 $(document).ready(function() {
+    
 });
 
 // usage: log('inside coolFunc', this, arguments);
@@ -9,3 +10,4 @@ window.log = function(){
   log.history.push(arguments);
   if(this.console) console.log( Array.prototype.slice.call(arguments) );
 };
+
