@@ -7,7 +7,8 @@
 
 != textile :README
 
-!= partial :dump
+- if Main.development?
+  != partial :dump
 
 %hr{ :style => 'height:100px' }/
 != partial :demo
